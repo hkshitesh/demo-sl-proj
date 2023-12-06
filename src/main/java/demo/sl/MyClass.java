@@ -18,7 +18,6 @@ public class MyClass {
 		return a/b;
 	}
 	public static void main(String[] args) {		
-		MyClass ob = new MyClass();
 		System.out.println("Sum is : "+ob.sum(4, 2));
 		System.out.println("Difference is : "+ob.sub(4, 2));
 		System.out.println("Multiply is : "+ob.mul(4, 2));
