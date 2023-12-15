@@ -18,9 +18,10 @@ public class MyClass {
 		return a/b;
 	}
 	public static void main(String[] args) {		
-		System.out.println("Sum is : "+ob.sum(4, 2));
-		System.out.println("Difference is : "+ob.sub(4, 2));
-		System.out.println("Multiply is : "+ob.mul(4, 2));
-		System.out.println("Division is : "+ob.div(4, 2));
+		MyClass ob = new MyClass();
+		System.out.println("Sum is : "+ob.sum(20, 10));
+		System.out.println("Difference is : "+ob.sub(20, 10));
+		System.out.println("Multiply is : "+ob.mul(20, 10));
+		System.out.println("Division is : "+ob.div(20, 10));
 	}
 }
