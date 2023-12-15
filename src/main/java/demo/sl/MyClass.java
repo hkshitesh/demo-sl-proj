@@ -19,9 +19,9 @@ public class MyClass {
 	}
 	public static void main(String[] args) {		
 		MyClass ob = new MyClass();
-		System.out.println("Sum is : "+ob.sum(20, 10));
-		System.out.println("Difference is : "+ob.sub(20, 10));
-		System.out.println("Multiply is : "+ob.mul(20, 10));
-		System.out.println("Division is : "+ob.div(20, 10));
+		System.out.println("Sum is : "+ob.sum(40, 10));
+		System.out.println("Difference is : "+ob.sub(40, 10));
+		System.out.println("Multiply is : "+ob.mul(40, 10));
+		System.out.println("Division is : "+ob.div(40, 10));
 	}
 }
